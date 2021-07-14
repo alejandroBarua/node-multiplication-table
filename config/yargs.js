@@ -2,12 +2,14 @@ const argv = require('yargs')
 							.option('b', {
 								alias: 'base',
 								type: 'number',
-								demandOption: true // es siempre requerido
+								demandOption: true, // es siempre requerido
+								describe: 'multiplication table base'
 							})
 							.option('l', {
 								alias: 'limite',
 								type: 'number',
-								default: 10
+								default: 10,
+								describe: 'multiplication table limite'
 							})
 							.option('t', {
 								alias: 'table',
