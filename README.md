@@ -21,7 +21,7 @@ Opciones:
 
 ```
 
-# Introducción de que es node
+# Introducción a Nodejs
 
 - ¿Que es Node js?
 - ¿Que se puede hacer con nodejs?
